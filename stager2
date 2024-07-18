@@ -16,7 +16,7 @@ Set r = CreateObject("WinHttp.WinHttpRequest.5.1")
 r.Open "GET", "http"&"://ipinfo"&".io/coun"&"try", False
 r.Send
 geo = InStr(r.responseText, "VN")
-If geo = 0 Then
+If geo <= 0 Then
     self.close
 End If
 
